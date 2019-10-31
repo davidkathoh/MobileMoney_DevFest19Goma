@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
 
             Intent intent = new HoverParameters.Builder(getApplicationContext())
+                    .setEnvironment(HoverParameters.DEBUG_ENV)
                     .request("action_id")
                     .extra("montat","40")
                     .extra("beneficiare","0972062484")
