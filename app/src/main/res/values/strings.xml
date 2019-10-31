@@ -1,3 +1,43 @@
 <resources>
     <string name="app_name">Mobile Money</string>
+
+    <!--    hsdk message-->
+    <string name="hsdk_confirm">Confirmer</string>
+    <string name="hsdk_enter_pin">Mot de passe</string>
+    <string name="hsdk_transaction_processing">Transaction en cours</string>
+    <string name="hsdk_wrong_sim_explain">Veuillez insérer une carte sim %1$s </string>
+    <string name="hsdk_wrong_sim">Carte SIM absente</string>
+    <string name="hsdk_want_detail">En continuant, vous permettez à cette application d\' avoir les autorisations ci-dessus afin d\'acceder à toutes les fonctionalités </string>
+    <string name="hsdk_unknown_error">Erreur inconnue, veuillez réessayer.</string>
+    <string name="hsdk_access_step_1">étape 1</string>
+    <string name="hsdk_access_step_2">étape 2</string>
+    <string name="hsdk_wait"> </string>
+    <string name="hsdk_want_overlay">Afficher la superposition de l\'écran</string>
+    <string name="hsdk_access_step_1_explain">Touchez ce bouton</string>
+    <string name="hsdk_access_step_2_explain">Activez</string>
+    <string name="hsdk_want_accessibility">Utiliser le service d\'accessibilité</string>
+    <string name="hsdk_access_tip">Trouvez "%1$s"  dans la liste et activez-le</string>
+    <string name="hsdk_access_btn">Ouvrir paramètres</string>
+    <string name="hsdk_want_perms">%1$s aimerais</string>
+    <string name="hsdk_accessibility">Accessibilité</string>
+    <string name="hsdk_access_explain">Pour empêcher l\'accessibilité de se désactiver automatiquement, accédez à Paramètres et désactivez l\'optimisation de la batterie pour cette application.</string>
+    <string name="hsdk_access_find">Trouver et appuyez sur %1$s puis activez-le</string>
+    <string name="hsdk_want_sms">Lire des messages SMS</string>
+    <string name="hsdk_secure">Privé et sécurisé</string>
+    <string name="hsdk_request_overlay">Demande de superposition</string>
+    <string name="hsdk_want_phone">Lire la carte sim et passer des appels</string>
+    <string name="hsdk_continue">Continuez</string>
+    <string name="hsdk_perms_needed">Permission nécessaire</string>
+    <string name="hsdk_back">Retour</string>
+    <string name="hsdk_overlay_msg">Affichez la progression de transactions en activant <b>Le button</b> dans l\'écran suivant.</string>
+    <string name="hsdk_enable_accessibility">Activer l\'accessibilité</string>
+    <string name="hsdk_phone_rationale">Nous avons besoin de cette permission pour lire votre carte SIM et composer le code ussd en votre place</string>
+    <string name="hsdk_access_msg"><b>Activez l\'accessibilité</b> dans l\'écran <b> suivant </b> pour exécuter des codes USSD.</string>
+    <string name="hsdk_choose_sim">Choisir SIM</string>
+    <string name="hsdk_basic_rationale">Nous avons besoin de cette permission pour lire votre carte SIM et vos réponses SMS aux demandes USSD</string>
+    <string name="hsdk_confirm_screen">Confirmer la transaction</string>
+    <string name="hsdk_please_wait">veuillez attendre</string>
+    <string name="hsdk_error_missing_perms">L\'utilisateur n\'a pas donné la permission à %1$s</string>
+    <string name="hsdk_error_user_cancelled">Demande annulée par l\'utilisateur</string>
+    <string name="hsdk_internet_required">Internet requis</string>
 </resources>

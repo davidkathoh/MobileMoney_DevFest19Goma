@@ -26,6 +26,8 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
 
             Intent intent = new HoverParameters.Builder(getApplicationContext())
+                    // here is how to set debug mode with usehover this mode will show tht normal ussd dialog
+                    .setEnvironment()
                     .request("action_id")
                     .extra("montat","40")
                     .extra("beneficiare","0972062484")
