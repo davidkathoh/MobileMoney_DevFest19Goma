@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
 
             Intent intent = new HoverParameters.Builder(getApplicationContext())
-                    .request("action_id")
+                    .request("action_id").style(R.style.hoverStyle)
                     .extra("montat","40")
                     .extra("beneficiare","0972062484")
                     .buildIntent();
